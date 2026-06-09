@@ -37,15 +37,23 @@
 
 ## 💡 The Problem
 
-As a student and developer, I kept running into the same wall: **cloud hosting costs money**. Every project I built needed somewhere to live — and AWS, DigitalOcean, and similar platforms all add up fast.
+As a student and developer, I was constantly deploying projects to free hosting platforms like **Render**, **Vercel**, and others. They work — but they all come with the same frustrations:
+
+- **Free tiers are limited.** Storage, bandwidth, build minutes — you hit the ceiling fast.
+- **Paying isn't an option.** As a student, I simply can't afford monthly subscriptions for every project.
+- **Free services go to sleep.** Platforms like Render spin down your server after inactivity. So when someone visits your project for the first time in a while, they wait 30–60 seconds for it to "wake up." That's not a good experience.
+- **You don't control the infrastructure.** You're always at the mercy of someone else's platform, rules, and limits.
 
 I had an old Samsung laptop collecting dust. So I asked: *what if that becomes my server?*
+
+My own server runs **all the time**, responds **instantly**, costs **nothing per month**, and I have **full control** over everything running on it.
 
 These were the goals I set:
 
 | Goal | Details |
 |------|---------|
-| 🆓 Zero recurring cost | No monthly cloud bills |
+| 🆓 Zero recurring cost | No monthly bills, no free tier limits |
+| ⚡ Always on, always fast | No sleep mode — responds instantly, every time |
 | 🔒 Secure remote access | Without opening risky router ports |
 | 🌍 Public-facing apps | Accessible from anywhere on the internet |
 | 📚 Real-world experience | Hands-on Linux, networking & DevOps skills |
