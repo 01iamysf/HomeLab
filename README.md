@@ -67,6 +67,12 @@ Here's how everything connects — from a user clicking a link to the response a
 
 This separation means the server is reachable from the internet for serving apps, while I manage it privately through an encrypted VPN — no exposed ports, no risk.
 
+<p align="center">
+  <img src="./assets/snapshot-dual-laptops.jpg" alt="Both laptops running — Samsung server (left) and Lenovo admin machine (right)" width="80%"/>
+  <br/>
+  <sub>📸 <em>The actual setup — Samsung server on the left, Lenovo admin laptop on the right, both running live</em></sub>
+</p>
+
 ---
 
 ## 💻 Tech Stack
@@ -125,6 +131,12 @@ ssh user@<tailscale-ip>
 
 No open ports. No exposed home IP. Just works.
 
+<p align="center">
+  <img src="./assets/snapshot-tailscale-network.jpg" alt="Tailscale network configuration on the Debian server" width="70%"/>
+  <br/>
+  <sub>📸 <em>Network interface config on the Samsung server — Tailscale mesh IPs visible alongside the local network</em></sub>
+</p>
+
 ---
 
 ### Phase 3 — Running the Application
@@ -136,6 +148,12 @@ pm2 start server.js --name "portfolio-app"
 pm2 save        # Save the process list
 pm2 startup     # Auto-start on system boot
 ```
+
+<p align="center">
+  <img src="./assets/snapshot-pm2-deploy.jpg" alt="PM2 process list running on the Samsung server showing EduGrievance backend" width="75%"/>
+  <br/>
+  <sub>📸 <em>Real PM2 output on the Samsung server — EduGrievance backend deployed and running</em></sub>
+</p>
 
 ---
 
@@ -268,6 +286,12 @@ This is a learning project that goes deep into how the internet works. It operat
 - Responds to DNS queries for domains defined in its zone config
 - Sits at the bottom of the DNS resolution hierarchy: Root → TLD → **This Server** → Client
 - Demonstrates the real mechanics of DNS at a protocol level
+
+<p align="center">
+  <img src="./assets/snapshot-dns-server.jpg" alt="DNS Server responding to dig queries for ysf.host" width="70%"/>
+  <br/>
+  <sub>📸 <em>Live <code>dig</code> queries resolving <code>ysf.host</code> — the custom DNS server returning real A records</em></sub>
+</p>
 
 **Tech Stack:** Node.js · TypeScript
 
