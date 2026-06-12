@@ -52,11 +52,11 @@ These were the goals I set:
 
 | Goal | Details |
 |------|---------|
-| 🆓 Zero recurring cost | No monthly bills, no free tier limits |
-| ⚡ Always on, always fast | No sleep mode — responds instantly, every time |
-| 🔒 Secure remote access | Without opening risky router ports |
-| 🌍 Public-facing apps | Accessible from anywhere on the internet |
-| 📚 Real-world experience | Hands-on Linux, networking & DevOps skills |
+|  Zero recurring cost | No monthly bills, no free tier limits |
+|  Always on, always fast | No sleep mode — responds instantly, every time |
+|  Secure remote access | Without opening risky router ports |
+|  Public-facing apps | Accessible from anywhere on the internet |
+|  Real-world experience | Hands-on Linux, networking & DevOps skills |
 
 ---
 
@@ -273,10 +273,10 @@ This home lab isn't just infrastructure for the sake of it. It runs real project
 EduGrievance is a full-stack web app designed for educational institutions. Students, faculty, and admins can submit, track, and resolve complaints — all in one place, with proper role-based access.
 
 **Key Features:**
-- 🔐 JWT-based authentication with role separation (Student / Faculty / Admin)
-- 📂 Full complaint lifecycle — Submit → Pending → In Progress → Resolved
-- 🖥️ Admin dashboard to review all complaints and add official remarks
-- 🎨 Modern glassmorphism UI with smooth Framer Motion animations
+-  JWT-based authentication with role separation (Student / Faculty / Admin)
+-  Full complaint lifecycle — Submit → Pending → In Progress → Resolved
+-  Admin dashboard to review all complaints and add official remarks
+-  Modern glassmorphism UI with smooth Framer Motion animations
 
 **Tech Stack:** React · Vite · Node.js · Express · MongoDB · JWT · Bcrypt
 
@@ -314,11 +314,11 @@ This is a learning project that goes deep into how the internet works. It operat
 iAttend is a full-featured institution management platform for everyone involved: admins, teachers, students, and parents. Teachers mark attendance, students apply for leaves, and parents get notified automatically — all in one clean, fast app.
 
 **What it does:**
-- 👑 **Admin** — Creates departments, classes, subjects, and manages all users
-- 📝 **Teacher** — Marks attendance by subject and approves/rejects leave requests
-- 🎒 **Student** — Views attendance %, timetable, and submits leave applications with document uploads
-- 👨‍👩‍👧 **Parent** — Logs in to track their child's attendance and progress
-- 📧 **Auto email alerts** to parents when a student is marked absent
+-  **Admin** — Creates departments, classes, subjects, and manages all users
+-  **Teacher** — Marks attendance by subject and approves/rejects leave requests
+-  **Student** — Views attendance %, timetable, and submits leave applications with document uploads
+-  **Parent** — Logs in to track their child's attendance and progress
+-  **Auto email alerts** to parents when a student is marked absent
 
 **Live Demo:** 🔗 [iattend.online](https://iattend.online)
 
