@@ -16,8 +16,7 @@
 
 <br/>
 
-> **Turn an old laptop into a production-grade server — for free.**
-> This project documents how I built a complete self-hosted infrastructure using repurposed hardware, open-source tools, and zero cloud costs.
+> This project documents how I built a complete self-hosted infrastructure using repurposed hardware, open-source tools, and zero cloud costs, the configurations.
 
 ---
 
